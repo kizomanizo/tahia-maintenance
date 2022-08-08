@@ -1,0 +1,37 @@
+:root {
+    /* Tahia Blue Color Palette */
+    --tahia-azure-90: rgba(17, 103, 149, 1);
+    --tahia-azure-80: rgba(41, 118, 160, 1);
+    --tahia-azure-70: rgba(65, 133, 170, 1);
+    --tahia-azure-60: rgba(88, 149, 181, 1);
+    --tahia-azure-50: rgba(112, 164, 191, 1);
+    --tahia-azure-40: rgba(136, 179, 202, 1);
+    --tahia-azure-30: rgba(160, 194, 213, 1);
+    --tahia-azure-20: rgba(184, 209, 223, 1);
+    --tahia-azure-10: rgba(207, 225, 234, 1);
+    --tahia-azure-00: rgba(231, 240, 244, 1);
+
+    /* Tahia Green Color Palette */
+    --tahia-green-90: rgba(106, 176, 41, 1);
+    --tahia-green-80: rgba(121, 184, 62, 1);
+    --tahia-green-70: rgba(136, 192, 84, 1);
+    --tahia-green-60: rgba(151, 200, 105, 1);
+    --tahia-green-50: rgba(166, 208, 127, 1);
+    --tahia-green-40: rgba(181, 216, 148, 1);
+    --tahia-green-30: rgba(195, 223, 169, 1);
+    --tahia-green-20: rgba(210, 231, 191, 1);
+    --tahia-green-10: rgba(225, 239, 212, 1);
+    --tahia-green-00: rgba(240, 247, 234, 1);
+
+    /* Tahia Gray Color Palette */
+    --Tahia-gray-90: rgba(40, 40, 40, 1 );
+    --Tahia-gray-80: rgba(60, 60, 60, 1 );
+    --Tahia-gray-70: rgba(80, 80, 80, 1 );
+    --Tahia-gray-60: rgba(100, 100, 100, 1 );
+    --Tahia-gray-50: rgba(120, 120, 120, 1 );
+    --Tahia-gray-40: rgba(140, 140, 140, 1 );
+    --Tahia-gray-30: rgba(160, 160, 160, 1 );
+    --Tahia-gray-20: rgba(180, 180, 180, 1 );
+    --Tahia-gray-10: rgba(200, 200, 200, 1 );
+    --Tahia-gray-00: rgba(220, 220, 220, 1 );
+}

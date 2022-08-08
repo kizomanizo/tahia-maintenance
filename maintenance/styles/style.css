@@ -1,0 +1,67 @@
+/* TAHIA Maintenance Fallback */
+@import url(./fonts.css);
+@import url(./colors.css);
+
+body {      
+    background-color: var(--tahia-azure-10);
+}
+
+.container {
+    margin: auto;
+}
+
+.centered {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.image-medium {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 200px;
+    width: 200px;
+}
+.banner {
+    position: absolute;
+    left: 50%;
+    top: 55%;
+    transform: translate(-50%, -50%);
+    padding: 10px;
+}
+
+.heading {
+    color: var(--tahia-green-90);
+    font-size: 3.5em;
+    font-style: normal;
+    font-weight: lighter;
+    font-family: 'Exo', Helvetica, sans-serif;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+@media (max-width: 900px) {
+    .image-medium {
+        position: absolute;
+        top: 20%;
+        left: 50%;
+        height: 150px;
+        width: 150px;
+    }
+
+    .banner {
+        position: absolute;
+        /* left: 40%; */
+        top: 45%;
+        text-align: center;
+        width: 100%;
+    }
+
+    .heading {
+        font-size: 1.5em;
+        font-weight: bold;
+    }
+}
