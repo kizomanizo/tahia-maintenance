@@ -8,6 +8,8 @@ body {
 
 .container {
     margin: auto;
+    max-width: 980px;
+    padding: 10px;
 }
 
 .centered {
@@ -44,10 +46,10 @@ body {
 }
 
 .heading-blog {
-    color: var(--tahia-green-70);
+    color: var(--tahia-azure-80);
     font-size: 1.6em;
     font-style: normal;
-    font-weight: lighter;
+    font-weight: bolder;
     font-family: 'Exo', Helvetica, sans-serif;
     text-rendering: optimizeLegibility;
     -webkit-font-smoothing: antialiased;
@@ -55,6 +57,7 @@ body {
 }
 
 .blog-content {
+    margin-top: 10px;
     color: var(--tahia-gray-70);
     font-size: 12pt;
     font-style: normal;
@@ -63,11 +66,13 @@ body {
     text-rendering: optimizeLegibility;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    padding: 10px;
-    margin-top: 10px;
 }
 
 @media (max-width: 900px) {
+    .container {
+        padding: 3px;
+        max-width: fit-content;
+    }
     .image-medium {
         position: absolute;
         top: 20%;
@@ -87,5 +92,10 @@ body {
     .heading {
         font-size: 1.5em;
         font-weight: bold;
+    }
+
+    .blog-content {
+        margin-top: 3px;
+        font-size: 1.6em;
     }
 }
