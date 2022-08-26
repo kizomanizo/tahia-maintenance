@@ -34,13 +34,37 @@ body {
 
 .heading {
     color: var(--tahia-green-90);
-    font-size: 3.5em;
+    font-size: 3.2em;
     font-style: normal;
     font-weight: lighter;
     font-family: 'Exo', Helvetica, sans-serif;
     text-rendering: optimizeLegibility;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+}
+
+.heading-blog {
+    color: var(--tahia-green-70);
+    font-size: 1.6em;
+    font-style: normal;
+    font-weight: lighter;
+    font-family: 'Exo', Helvetica, sans-serif;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.blog-content {
+    color: var(--tahia-gray-70);
+    font-size: 12pt;
+    font-style: normal;
+    font-weight: normal;
+    font-family: Arial, Helvetica, sans-serif;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    padding: 10px;
+    margin-top: 10px;
 }
 
 @media (max-width: 900px) {
